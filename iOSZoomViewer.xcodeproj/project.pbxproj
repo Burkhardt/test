@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573E33F413A2BFEA00DE8196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573E33F313A2BFEA00DE8196 /* UIKit.framework */; };
+		573E33F613A2BFEA00DE8196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573E33F513A2BFEA00DE8196 /* Foundation.framework */; };
+		573E33F813A2BFEA00DE8196 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573E33F713A2BFEA00DE8196 /* CoreGraphics.framework */; };
+		573E33FE13A2BFEA00DE8196 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 573E33FC13A2BFEA00DE8196 /* InfoPlist.strings */; };
+		573E340113A2BFEA00DE8196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E340013A2BFEA00DE8196 /* main.m */; };
+		573E340413A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E340313A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.m */; };
+		573E340713A2BFEA00DE8196 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573E340513A2BFEA00DE8196 /* MainWindow.xib */; };
+		573E340A13A2BFEA00DE8196 /* iOSZoomViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E340913A2BFEA00DE8196 /* iOSZoomViewerViewController.m */; };
+		573E340D13A2BFEB00DE8196 /* iOSZoomViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573E340B13A2BFEB00DE8196 /* iOSZoomViewerViewController.xib */; };
+		573E341413A2BFEB00DE8196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573E33F313A2BFEA00DE8196 /* UIKit.framework */; };
+		573E341513A2BFEB00DE8196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573E33F513A2BFEA00DE8196 /* Foundation.framework */; };
+		573E341613A2BFEB00DE8196 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573E33F713A2BFEA00DE8196 /* CoreGraphics.framework */; };
+		573E341E13A2BFEB00DE8196 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 573E341C13A2BFEB00DE8196 /* InfoPlist.strings */; };
+		573E342113A2BFEB00DE8196 /* iOSZoomViewerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 573E342013A2BFEB00DE8196 /* iOSZoomViewerTests.h */; };
+		573E342313A2BFEB00DE8196 /* iOSZoomViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E342213A2BFEB00DE8196 /* iOSZoomViewerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		573E341713A2BFEB00DE8196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573E33E613A2BFEA00DE8196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 573E33EE13A2BFEA00DE8196;
+			remoteInfo = iOSZoomViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		573E33EF13A2BFEA00DE8196 /* iOSZoomViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSZoomViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		573E33F313A2BFEA00DE8196 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		573E33F513A2BFEA00DE8196 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		573E33F713A2BFEA00DE8196 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		573E33FB13A2BFEA00DE8196 /* iOSZoomViewer-Info.plist */ = {isa = PBXFileReference; path = "iOSZoomViewer-Info.plist"; sourceTree = "<group>"; };
+		573E33FD13A2BFEA00DE8196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		573E33FF13A2BFEA00DE8196 /* iOSZoomViewer-Prefix.pch */ = {isa = PBXFileReference; path = "iOSZoomViewer-Prefix.pch"; sourceTree = "<group>"; };
+		573E340013A2BFEA00DE8196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		573E340213A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.h */ = {isa = PBXFileReference; path = iOSZoomViewerAppDelegate.h; sourceTree = "<group>"; };
+		573E340313A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSZoomViewerAppDelegate.m; sourceTree = "<group>"; };
+		573E340613A2BFEA00DE8196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		573E340813A2BFEA00DE8196 /* iOSZoomViewerViewController.h */ = {isa = PBXFileReference; path = iOSZoomViewerViewController.h; sourceTree = "<group>"; };
+		573E340913A2BFEA00DE8196 /* iOSZoomViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSZoomViewerViewController.m; sourceTree = "<group>"; };
+		573E340C13A2BFEB00DE8196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iOSZoomViewerViewController.xib; sourceTree = "<group>"; };
+		573E341313A2BFEB00DE8196 /* iOSZoomViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSZoomViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		573E341B13A2BFEB00DE8196 /* iOSZoomViewerTests-Info.plist */ = {isa = PBXFileReference; path = "iOSZoomViewerTests-Info.plist"; sourceTree = "<group>"; };
+		573E341D13A2BFEB00DE8196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		573E341F13A2BFEB00DE8196 /* iOSZoomViewerTests-Prefix.pch */ = {isa = PBXFileReference; path = "iOSZoomViewerTests-Prefix.pch"; sourceTree = "<group>"; };
+		573E342013A2BFEB00DE8196 /* iOSZoomViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSZoomViewerTests.h; sourceTree = "<group>"; };
+		573E342213A2BFEB00DE8196 /* iOSZoomViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSZoomViewerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573E33EC13A2BFEA00DE8196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E33F413A2BFEA00DE8196 /* UIKit.framework in Frameworks */,
+				573E33F613A2BFEA00DE8196 /* Foundation.framework in Frameworks */,
+				573E33F813A2BFEA00DE8196 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573E340F13A2BFEB00DE8196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E341413A2BFEB00DE8196 /* UIKit.framework in Frameworks */,
+				573E341513A2BFEB00DE8196 /* Foundation.framework in Frameworks */,
+				573E341613A2BFEB00DE8196 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573E33E413A2BFEA00DE8196 = {
+			isa = PBXGroup;
+			children = (
+				573E33F913A2BFEA00DE8196 /* iOSZoomViewer */,
+				573E341913A2BFEB00DE8196 /* iOSZoomViewerTests */,
+				573E33F213A2BFEA00DE8196 /* Frameworks */,
+				573E33F013A2BFEA00DE8196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		573E33F013A2BFEA00DE8196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573E33EF13A2BFEA00DE8196 /* iOSZoomViewer.app */,
+				573E341313A2BFEB00DE8196 /* iOSZoomViewerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573E33F213A2BFEA00DE8196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				573E33F313A2BFEA00DE8196 /* UIKit.framework */,
+				573E33F513A2BFEA00DE8196 /* Foundation.framework */,
+				573E33F713A2BFEA00DE8196 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573E33F913A2BFEA00DE8196 /* iOSZoomViewer */ = {
+			isa = PBXGroup;
+			children = (
+				573E340213A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.h */,
+				573E340313A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.m */,
+				573E340513A2BFEA00DE8196 /* MainWindow.xib */,
+				573E340813A2BFEA00DE8196 /* iOSZoomViewerViewController.h */,
+				573E340913A2BFEA00DE8196 /* iOSZoomViewerViewController.m */,
+				573E340B13A2BFEB00DE8196 /* iOSZoomViewerViewController.xib */,
+				573E33FA13A2BFEA00DE8196 /* Supporting Files */,
+			);
+			path = iOSZoomViewer;
+			sourceTree = "<group>";
+		};
+		573E33FA13A2BFEA00DE8196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573E33FB13A2BFEA00DE8196 /* iOSZoomViewer-Info.plist */,
+				573E33FC13A2BFEA00DE8196 /* InfoPlist.strings */,
+				573E33FF13A2BFEA00DE8196 /* iOSZoomViewer-Prefix.pch */,
+				573E340013A2BFEA00DE8196 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		573E341913A2BFEB00DE8196 /* iOSZoomViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				573E342013A2BFEB00DE8196 /* iOSZoomViewerTests.h */,
+				573E342213A2BFEB00DE8196 /* iOSZoomViewerTests.m */,
+				573E341A13A2BFEB00DE8196 /* Supporting Files */,
+			);
+			path = iOSZoomViewerTests;
+			sourceTree = "<group>";
+		};
+		573E341A13A2BFEB00DE8196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573E341B13A2BFEB00DE8196 /* iOSZoomViewerTests-Info.plist */,
+				573E341C13A2BFEB00DE8196 /* InfoPlist.strings */,
+				573E341F13A2BFEB00DE8196 /* iOSZoomViewerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573E33EE13A2BFEA00DE8196 /* iOSZoomViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573E342613A2BFEB00DE8196 /* Build configuration list for PBXNativeTarget "iOSZoomViewer" */;
+			buildPhases = (
+				573E33EB13A2BFEA00DE8196 /* Sources */,
+				573E33EC13A2BFEA00DE8196 /* Frameworks */,
+				573E33ED13A2BFEA00DE8196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSZoomViewer;
+			productName = iOSZoomViewer;
+			productReference = 573E33EF13A2BFEA00DE8196 /* iOSZoomViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		573E341213A2BFEB00DE8196 /* iOSZoomViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573E342913A2BFEB00DE8196 /* Build configuration list for PBXNativeTarget "iOSZoomViewerTests" */;
+			buildPhases = (
+				573E340E13A2BFEB00DE8196 /* Sources */,
+				573E340F13A2BFEB00DE8196 /* Frameworks */,
+				573E341013A2BFEB00DE8196 /* Resources */,
+				573E341113A2BFEB00DE8196 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				573E341813A2BFEB00DE8196 /* PBXTargetDependency */,
+			);
+			name = iOSZoomViewerTests;
+			productName = iOSZoomViewerTests;
+			productReference = 573E341313A2BFEB00DE8196 /* iOSZoomViewerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573E33E613A2BFEA00DE8196 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 573E33E913A2BFEA00DE8196 /* Build configuration list for PBXProject "iOSZoomViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 573E33E413A2BFEA00DE8196;
+			productRefGroup = 573E33F013A2BFEA00DE8196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573E33EE13A2BFEA00DE8196 /* iOSZoomViewer */,
+				573E341213A2BFEB00DE8196 /* iOSZoomViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573E33ED13A2BFEA00DE8196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E33FE13A2BFEA00DE8196 /* InfoPlist.strings in Resources */,
+				573E340713A2BFEA00DE8196 /* MainWindow.xib in Resources */,
+				573E340D13A2BFEB00DE8196 /* iOSZoomViewerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573E341013A2BFEB00DE8196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E341E13A2BFEB00DE8196 /* InfoPlist.strings in Resources */,
+				573E342113A2BFEB00DE8196 /* iOSZoomViewerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		573E341113A2BFEB00DE8196 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573E33EB13A2BFEA00DE8196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E340113A2BFEA00DE8196 /* main.m in Sources */,
+				573E340413A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.m in Sources */,
+				573E340A13A2BFEA00DE8196 /* iOSZoomViewerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573E340E13A2BFEB00DE8196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E342313A2BFEB00DE8196 /* iOSZoomViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		573E341813A2BFEB00DE8196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 573E33EE13A2BFEA00DE8196 /* iOSZoomViewer */;
+			targetProxy = 573E341713A2BFEB00DE8196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		573E33FC13A2BFEA00DE8196 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573E33FD13A2BFEA00DE8196 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		573E340513A2BFEA00DE8196 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573E340613A2BFEA00DE8196 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		573E340B13A2BFEB00DE8196 /* iOSZoomViewerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573E340C13A2BFEB00DE8196 /* en */,
+			);
+			name = iOSZoomViewerViewController.xib;
+			sourceTree = "<group>";
+		};
+		573E341C13A2BFEB00DE8196 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573E341D13A2BFEB00DE8196 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573E342413A2BFEB00DE8196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		573E342513A2BFEB00DE8196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		573E342713A2BFEB00DE8196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSZoomViewer/iOSZoomViewer-Prefix.pch";
+				INFOPLIST_FILE = "iOSZoomViewer/iOSZoomViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		573E342813A2BFEB00DE8196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSZoomViewer/iOSZoomViewer-Prefix.pch";
+				INFOPLIST_FILE = "iOSZoomViewer/iOSZoomViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		573E342A13A2BFEB00DE8196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSZoomViewer.app/iOSZoomViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSZoomViewerTests/iOSZoomViewerTests-Prefix.pch";
+				INFOPLIST_FILE = "iOSZoomViewerTests/iOSZoomViewerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		573E342B13A2BFEB00DE8196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSZoomViewer.app/iOSZoomViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSZoomViewerTests/iOSZoomViewerTests-Prefix.pch";
+				INFOPLIST_FILE = "iOSZoomViewerTests/iOSZoomViewerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573E33E913A2BFEA00DE8196 /* Build configuration list for PBXProject "iOSZoomViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573E342413A2BFEB00DE8196 /* Debug */,
+				573E342513A2BFEB00DE8196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573E342613A2BFEB00DE8196 /* Build configuration list for PBXNativeTarget "iOSZoomViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573E342713A2BFEB00DE8196 /* Debug */,
+				573E342813A2BFEB00DE8196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		573E342913A2BFEB00DE8196 /* Build configuration list for PBXNativeTarget "iOSZoomViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573E342A13A2BFEB00DE8196 /* Debug */,
+				573E342B13A2BFEB00DE8196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573E33E613A2BFEA00DE8196 /* Project object */;
+}
