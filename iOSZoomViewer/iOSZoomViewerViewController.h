@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface iOSZoomViewerViewController : UIViewController {
+    UIImageView *thumbnailSizeImage;
+    UIScrollView *zoomedImage;
     
 }
+
+@property (nonatomic, retain) UIImageView *thumbnailSizeImage;
+@property (nonatomic, retain) UIScrollView *zoom 
 
 @end

@@ -39,20 +39,20 @@
 		573E33F313A2BFEA00DE8196 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		573E33F513A2BFEA00DE8196 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		573E33F713A2BFEA00DE8196 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		573E33FB13A2BFEA00DE8196 /* iOSZoomViewer-Info.plist */ = {isa = PBXFileReference; path = "iOSZoomViewer-Info.plist"; sourceTree = "<group>"; };
+		573E33FB13A2BFEA00DE8196 /* iOSZoomViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSZoomViewer-Info.plist"; sourceTree = "<group>"; };
 		573E33FD13A2BFEA00DE8196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		573E33FF13A2BFEA00DE8196 /* iOSZoomViewer-Prefix.pch */ = {isa = PBXFileReference; path = "iOSZoomViewer-Prefix.pch"; sourceTree = "<group>"; };
+		573E33FF13A2BFEA00DE8196 /* iOSZoomViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSZoomViewer-Prefix.pch"; sourceTree = "<group>"; };
 		573E340013A2BFEA00DE8196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		573E340213A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.h */ = {isa = PBXFileReference; path = iOSZoomViewerAppDelegate.h; sourceTree = "<group>"; };
+		573E340213A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSZoomViewerAppDelegate.h; sourceTree = "<group>"; };
 		573E340313A2BFEA00DE8196 /* iOSZoomViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSZoomViewerAppDelegate.m; sourceTree = "<group>"; };
 		573E340613A2BFEA00DE8196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		573E340813A2BFEA00DE8196 /* iOSZoomViewerViewController.h */ = {isa = PBXFileReference; path = iOSZoomViewerViewController.h; sourceTree = "<group>"; };
+		573E340813A2BFEA00DE8196 /* iOSZoomViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSZoomViewerViewController.h; sourceTree = "<group>"; };
 		573E340913A2BFEA00DE8196 /* iOSZoomViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSZoomViewerViewController.m; sourceTree = "<group>"; };
 		573E340C13A2BFEB00DE8196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iOSZoomViewerViewController.xib; sourceTree = "<group>"; };
 		573E341313A2BFEB00DE8196 /* iOSZoomViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSZoomViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		573E341B13A2BFEB00DE8196 /* iOSZoomViewerTests-Info.plist */ = {isa = PBXFileReference; path = "iOSZoomViewerTests-Info.plist"; sourceTree = "<group>"; };
+		573E341B13A2BFEB00DE8196 /* iOSZoomViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSZoomViewerTests-Info.plist"; sourceTree = "<group>"; };
 		573E341D13A2BFEB00DE8196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		573E341F13A2BFEB00DE8196 /* iOSZoomViewerTests-Prefix.pch */ = {isa = PBXFileReference; path = "iOSZoomViewerTests-Prefix.pch"; sourceTree = "<group>"; };
+		573E341F13A2BFEB00DE8196 /* iOSZoomViewerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSZoomViewerTests-Prefix.pch"; sourceTree = "<group>"; };
 		573E342013A2BFEB00DE8196 /* iOSZoomViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSZoomViewerTests.h; sourceTree = "<group>"; };
 		573E342213A2BFEB00DE8196 /* iOSZoomViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSZoomViewerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
