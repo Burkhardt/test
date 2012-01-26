@@ -14,7 +14,10 @@
     
 }
 
+// just add something here
 @property (nonatomic, retain) UIImageView *thumbnailSizeImage;
+
+// and a little bit there
 @property (nonatomic, retain) UIScrollView *zoom 
 
 @end
